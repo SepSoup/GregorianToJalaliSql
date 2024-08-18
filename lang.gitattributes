@@ -1,5 +1,2 @@
-# Ensure .sql files are detected as part of the project's language
 *.sql linguist-detectable=true
-
-# Force GitHub to display .sql files as SQL (not TSQL or other variants)
 *.sql linguist-language=SQL
