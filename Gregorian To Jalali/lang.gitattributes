@@ -1,2 +1,8 @@
-*.sql linguist-detectable=true
-*.sql linguist-language=sql
+# Identify SQL files and treat them as text files
+*.sql text
+
+# Specify that SQL files should be treated as text for diffs
+*.sql diff
+
+# Ensure SQL files use LF line endings
+*.sql eol=lf
